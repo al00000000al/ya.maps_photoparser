@@ -1,0 +1,40 @@
+.form, .results, .navigate {
+  display:flex;
+}
+
+.results {
+  flex-wrap:wrap;
+  width:100%;
+  margin:0 auto;
+}
+
+.photo {
+  height:160px;
+  width:284px;
+  border-radius:2px 2px 0px 0px;
+  -o-object-fit:cover;
+  object-fit:cover;
+  border:1px solid white;
+}
+
+.photo:hover {
+  border:1px solid red;
+}
+
+.row.results {
+}
+
+.row.results {
+}
+
+#load_btn {
+}
+
+#random_btn {
+  top:20px;
+  right:20px;
+  /*margin-left:auto;*/
+  position:fixed;
+  /*margin-right:auto;*/
+}
+

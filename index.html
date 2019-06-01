@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yandex_maps Photo parser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/results.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="header-blue" style="height:110vh;">
+            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                <div class="container"><a class="navbar-brand" href="#" style="color:rgb(0,0,0);">Yandex maps Photo parser</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div
+                        class="collapse navbar-collapse" id="navcol-1"></div>
+        </div>
+        </nav>
+        <div class="container-fluid flex-column justify-content-between" style="height:90vh;">
+            <div class="results"></div>
+            <div class="row">
+                <div class="col" style="width:100%;">
+                    <div class="btn-group" role="group" style="width:100%;"><button class="btn btn-primary" type="button" id="prev_btn" style="width:50%;background-color:rgb(195,0,0);">&lt;-- Previous</button><button class="btn btn-primary" type="button" id="next_btn" style="width:50%;background-color:rgb(195,0,0);">Next --&gt;</button></div>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend"><span class="input-group-text" style="background-color:#feffb9;">Start photo id</span></div><input class="form-control" type="text" id="pid" style="background-color:rgb(249,245,245);">
+                <div class="input-group-append"><button class="btn btn-primary" type="button" id="load_btn" style="background-color:rgb(195,0,0);">Start</button></div>
+            </div><button class="btn btn-primary" type="button" id="random_btn" style="background-color:rgb(195,0,0);">Random</button></div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.0/mousetrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
