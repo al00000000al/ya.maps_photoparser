@@ -28,16 +28,16 @@ Mousetrap.bind('down',function() {window.location='?pid='+(pid-100);});
     return false;
 });
     
- $('.next_btn').on('click', function() {
+ $('#next_btn').on('click', function() {
     window.location='?pid='+(pid+npic);
    });
- $('.prev_btn').on('click', function() {
+ $('#prev_btn').on('click', function() {
     window.location='?pid='+(pid-npic);
    });
-$('.load_btn').on('click', function() {
+$('#load_btn').on('click', function() {
     window.location='?pid='+$('#pid').val();
    });
-    $('.random_btn').on('click', function() {
+    $('#random_btn').on('click', function() {
     window.location='?pid=0';
    });
 });
