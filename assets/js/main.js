@@ -12,9 +12,9 @@ if(pid > 0){
 for(var i = 0; i < (npic-1); i++){
 	var text2 = pid + i;
 	$('.results').append(
-	"<a href='https://mrc-browser.maps.yandex.ru/feature/"
+	"<a href='https://core-nmaps-mrc-browser.maps.yandex.ru/feature/"
 	+ text2 + 
-	"/image'  target='_blank'><img src='https://mrc-browser.maps.yandex.ru/feature/" 
+	"/image'  target='_blank'><img src='https://core-nmaps-mrc-browser.maps.yandex.ru/feature/" 
 	+text2 +
 	"/thumbnail' class=\"photo\" onerror=\"this.style.display='none';\" ></a>");
 }
